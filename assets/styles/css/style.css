@@ -1,0 +1,43 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 10vh 640px; }
+
+h1 {
+  text-align: center; }
+
+#grid {
+  width: 640px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(10, 64px);
+  grid-template-rows: repeat(10, 64px); }
+
+.wood {
+  background: url("../../imgs/wood.svg"); }
+
+.stone {
+  background: url("../../imgs/stone.svg"); }
+
+.goal {
+  background: url("../../imgs/goal.svg"), url("../../imgs/wood.svg"); }
+
+.box {
+  background: url("../../imgs/box.svg"), url("../../imgs/wood.svg"); }
+
+.face {
+  background: url("../../imgs/face.svg"), url("../../imgs/wood.svg"); }
+
+.back {
+  background-image: url("../../imgs/back.svg"), url("../../imgs/wood.svg"); }
+
+.left {
+  background-image: url("../../imgs/left.svg"), url("../../imgs/wood.svg"); }
+
+.right {
+  background-image: url("../../imgs/right.svg"), url("../../imgs/wood.svg"); }
